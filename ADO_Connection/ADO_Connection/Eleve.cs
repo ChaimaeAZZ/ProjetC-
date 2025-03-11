@@ -22,7 +22,8 @@ namespace ADO_Connection
             this.ville = ville;
             this.specialite = specialite;
         }
-        
+        public Eleve() { }
+
         public int Code
         {
             get { return code; }
